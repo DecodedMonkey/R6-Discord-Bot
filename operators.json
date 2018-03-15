@@ -1,0 +1,138 @@
+{
+    "FBI": {
+        "Name": "FBI Special Weapons and Tactics Teams (SWAT)(FBI)",
+        "Attackers": [
+            "Ash",
+            "Thermite"
+        ],
+        "Defenders": [
+            "Castle",
+            "Pulse"
+        ]
+    },
+    "SAS": {
+        "Name": "Special Air Service(SAS)",
+        "Attackers": [
+            "Sledge",
+            "Thatcher"
+        ],
+        "Defenders": [
+            "Mute",
+            "Smoke"
+        ]
+    },
+    "GIGN": {
+        "Name": "National Gendarmerie Intervention Group (GIGN)",
+        "Attackers": [
+            "Montagne",
+            "Twitch"
+        ],
+        "Defenders": [
+            "Doc",
+            "Rook"
+        ]
+    },
+    "SPET": {
+        "Name": "Russian Special Purpose Forces (Spetsnaz)",
+        "Attackers": [
+            "FUZE",
+            "Glaz"
+        ],
+        "Defenders": [
+            "Kapkan",
+            "Tachanka"
+        ]
+    },
+    "GSG9": {
+        "Name": "Border Protection Group 9 (GSG9)",
+        "Attackers": [
+            "Blitz",
+            "IQ"
+        ],
+        "Defenders": [
+            "Jäger",
+            "Bandit"
+        ]
+    },
+    "JTF2": {
+        "Name": "Joint Task Force 2 (JTF2)",
+        "Attackers": [
+            "Buck"
+        ],
+        "Defenders": [
+            "Frost"
+        ]
+    },
+    "NAVY": {
+        "Name": "The United States Navy Seal's (Navy SEAL)",
+        "Attackers": [
+            "Blackbeard"
+        ],
+        "Defenders": [
+            "Valkrie"
+        ]
+    },
+    "BOPE": {
+        "Name": "Batalhão de Operações Policiais Especiais (BOPE)",
+        "Attackers": [
+            "Capitão"
+        ],
+        "Defenders": [
+            "Caveira"
+        ]
+    },
+    "SAT": {
+        "Name": "Special Assault Team (SAT)",
+        "Attackers": [
+            "Hibana"
+        ],
+        "Defenders": [
+            "Echo"
+        ]
+    },
+    "GEO": {
+        "Name": "Grupo Especial de Operaciones (GEO)",
+        "Attackers": [
+            "Jackal"
+        ],
+        "Defenders": [
+            "Mira"
+        ]
+    },
+    "SDU": {
+        "Name": "Special Duties Unit (SDU)",
+        "Attackers": [
+            "Ying"
+        ],
+        "Defenders": [
+            "Lesion"
+        ]
+    },
+    "GROM": {
+        "Name": "Jednostka Wojskowa Grupa Reagowania Operacyjno-Manewrowego (JW GROM)",
+        "Attackers": [
+            "Zofia"
+        ],
+        "Defenders": [
+            "Ela"
+        ]
+    },
+    "SMB": {
+        "Name": "707th Special Mission Battalion (707th SMB)",
+        "Attackers": [
+            "Dokkaebi"
+        ],
+        "Defenders": [
+            "Vigil"
+        ]
+    },
+    "CBRN": {
+        "Name": "Chemical, Biological, Radiological, Nuclear (CBRN)",
+        "Attackers": [
+            "Lion"
+        ],
+        "Defenders": [
+            "Finka"
+        ]
+    }
+}
