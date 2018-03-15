@@ -2,6 +2,8 @@ require('dotenv').config();
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const operators = require('./operators.json');
+//clearChar is a Zero Width Space (U+200B)
+const clearChar = String.fromCharCode(8203);
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
@@ -68,11 +70,27 @@ client.on('message', msg => {
         send(opInfo, { code: 'HTTP' });
         break;
     case 'ALL':
-    //
+        let allOpsInfo = '';
+        Object.values(operators).forEach(unit => {
+            allOpsInfo += `${unit.Name}`+
+            `\nAttackers: "${unit.Attackers.toString().replace(/,/g, '" & "')}"` +
+            `\nDefenders: "${unit.Defenders.toString().replace(/,/g, '" & "')}"\n${clearChar}\n`;
+        });
+        console.dir(allOpsInfo);
+        send(allOpsInfo, {code: 'HTTP'});
         break;
     //END of OP INFO
     case '.roll': {
-    //
+        let attackers = Object.values(operators).map(a => a.Attackers);
+        attackers = attackers.toString().split(',');
+
+        let defenders = Object.values(operators).map(a => a.Defenders);
+        defenders = defenders.toString().split(',');
+
+        const rollAttacker = attackers[Math.floor(Math.random() * attackers.length)];
+        const rollDefender = defenders[Math.floor(Math.random() * defenders.length)];
+
+        send(`Attacker: ${rollAttacker} \nDefender: ${rollDefender}`, {code: 'HTTP'});
         break;
     }
     case '.strat': {
