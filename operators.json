@@ -129,10 +129,9 @@
     "CBRN": {
         "Name": "Chemical, Biological, Radiological, Nuclear (CBRN)",
         "Attackers": [
-            "Lion"
-        ],
-        "Defenders": [
+            "Lion",
             "Finka"
-        ]
+        ],
+        "Defenders": []
     }
 }
