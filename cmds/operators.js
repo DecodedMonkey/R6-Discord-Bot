@@ -51,7 +51,7 @@ module.exports.run = async (client, msg, cmd, args) => {
     }
 };
 
-module.exports.help = {
+module.exports.properties = {
     name: prefix+'operators',
     cmd: ['FBI', 'SAS', 'GIGN', 'SPET', 'GSG9', 'JTF2', 'NAVY', 'BOPE', 'SAT', 'SDU', 'GROM', 'SMB', 'GEO', /*Special Cases for User Ease of Use*/ 'SEAL', '707th SMB', '707', '707th', 'JW GROM', 'ALL']
 };

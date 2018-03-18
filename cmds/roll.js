@@ -31,6 +31,7 @@ module.exports.run = async (bot, msg, cmd, args) => {
     }
 };
 
-module.exports.help = {
-    name: prefix+'roll'
+module.exports.properties = {
+    name: prefix+'roll',
+    cmd: [prefix+'roll']
 };

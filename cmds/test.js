@@ -4,6 +4,7 @@ module.exports.run = async (bot, msg, cmd, args) => {
     console.log('Testing ran!');
 };
 
-module.exports.help = {
-    name: prefix+'tester'
+module.exports.properties = {
+    name: prefix+'tester',
+    cmd: [prefix+'tester']
 };

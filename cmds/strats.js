@@ -2,7 +2,7 @@ const prefix = process.env.BOT_PREFIX;
 const Discord = require('discord.js');
 const strats = require('../strats.json');
 
-module.exports.run = async (bot, msg, cmd, args) => {
+module.exports.run = async (bot, msg) => {
     const filterObject = (object, property, string1, string2) => {
         let filteredObj = object.filter((obj) => {
             return obj[property] == string1 || obj[property] == string2;
@@ -24,6 +24,7 @@ module.exports.run = async (bot, msg, cmd, args) => {
     msg.delete(msg);
 };
 
-module.exports.help = {
-    name: prefix+'strat'
+module.exports.properties = {
+    name: prefix+'strat',
+    cmd: [prefix+'strat']
 };

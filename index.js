@@ -18,8 +18,8 @@ fs.readdir('./cmds/', (err, files) => {
     jsFiles.forEach((file, index) => {
         let props = require(`./cmds/${file}`);
         console.log(`${index+1}: ${file} loaded!`);
-        console.log(props.help.name);
-        client.commands.set(props.help.name, props);
+        console.log(props.properties.name);
+        client.commands.set(props.properties.name, props);
     });
 });
 
@@ -38,8 +38,8 @@ client.on('message', msg => {
     //TODO: Rename variables
     if (!cmd) {
         client.commands.forEach(el => {
-            if (el.help.cmd && el.help.cmd.indexOf(command) > -1) {
-                cmd = client.commands.get(el.help.name);
+            if (el.properties.cmd && el.properties.cmd.indexOf(command) > -1) {
+                cmd = client.commands.get(el.properties.name);
             }
         });
     }
