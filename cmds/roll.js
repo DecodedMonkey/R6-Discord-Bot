@@ -16,7 +16,7 @@ module.exports.run = async (bot, msg, cmd, args) => {
             return;
         }
         let message = '';
-        for (let i = 0; i < parseInt(args[0])-1; i++) {
+        for (let i = 0; i < parseInt(args[0]); i++) {
             // let rollAttacker = attackers[Math.floor(Math.random() * attackers.length) || 'Ash'];
             // let rollDefender = defenders[Math.floor(Math.random() * defenders.length)] || 'Rook';
             let rollAttacker = attackers[i];
