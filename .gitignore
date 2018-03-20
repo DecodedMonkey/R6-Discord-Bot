@@ -4,3 +4,4 @@ README.txt
 client_secret.json
 .credentials
 pm2.config.js
+node_modules
