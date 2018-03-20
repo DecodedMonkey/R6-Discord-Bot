@@ -1,3 +1,6 @@
 .env
 README.txt
 .vscode
+client_secret.json
+.credentials
+pm2.config.js

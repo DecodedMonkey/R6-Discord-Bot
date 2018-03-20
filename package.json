@@ -18,6 +18,9 @@
   "homepage": "https://github.com/DecodedMonkey/R6-Discord-Bot#readme",
   "dependencies": {
     "discord.js": "^11.3.2",
-    "dotenv": "^5.0.1"
+    "dotenv": "^5.0.1",
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^25.0.0",
+    "jsonfile": "^4.0.0"
   }
 }
